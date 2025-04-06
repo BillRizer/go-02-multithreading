@@ -1,6 +1,0 @@
-2025/04/06 13:30:27 logger.go:15: Logger inicializado com sucesso
-2025/04/06 13:30:27 main.go:34: server initilized
-2025/04/06 13:31:05 logger.go:15: Logger inicializado com sucesso
-2025/04/06 13:31:05 main.go:34: server initilized
-2025/04/06 13:32:20 logger.go:15: Logger inicializado com sucesso
-2025/04/06 13:32:20 main.go:34: server initilized
