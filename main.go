@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"challengertwo/brasilapi"
 	"challengertwo/model"
-	"challengertwo/viacep"
+	"challengertwo/providers/brasilapi"
+	"challengertwo/providers/viacep"
 )
 
 func main() {

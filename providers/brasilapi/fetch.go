@@ -19,6 +19,8 @@ type ResponseBrasilApi struct {
 
 func Fetch(ctx context.Context, cep string, ch chan<- model.Address) {
 	url := fmt.Sprintf("https://brasilapi.com.br/api/cep/v1/%s", cep)
+	// to delay api
+	// time.Sleep(500 * time.Millisecond)
 	req, _ := http.NewRequestWithContext(ctx, "GET", url, nil)
 	resp, err := http.DefaultClient.Do(req)
 	if err != nil {
